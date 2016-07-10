@@ -20,6 +20,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ChoosePic"
+        android:layout_above="@+id/btn_recordAudio"
+        />
+    <Button
+        android:id="@+id/btn_recordAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recordAudio"
+        android:layout_above="@+id/btn_playRecord"
+        />
+    <Button
+        android:id="@+id/btn_playRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="playRecord"
         android:layout_alignParentBottom="true"
         />
 </RelativeLayout>
