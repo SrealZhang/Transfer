@@ -1,4 +1,5 @@
 eventbus 
 greendao
 butterknife
+zxing
 kjframe
